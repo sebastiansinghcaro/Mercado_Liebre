@@ -3,14 +3,9 @@ const app = express();
 
 const path = require("path");
 
-app.listen(3040, () => {
+app.listen(process.env.PORT ? process.env.PORT : 3000, () => {
     console.log("Se prendió!");
 });
-
-//Metodos de HTTP
-// - GET
-// - POST
-// - PUT
 
 app.use(express.static(path.join(__dirname, "public")));
 
