@@ -1,63 +1,54 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8" />
-        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>Mercado Liebre</title>
-        <link rel="preconnect" href="https://fonts.googleapis.com" />
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-        <link
-            href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
-            rel="stylesheet"
-        />
-        <link
-            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
-            rel="stylesheet"
-        />
-       
 
-        <link rel="stylesheet" href="/css/styles.css" />
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mercado Liebre</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet" />
 
-        <link
-            rel="stylesheet"
-            href="/css/styles.css"
-            media="(min-width:480px)"
-        />
-        <link
-            rel="stylesheet"
-            href="/css/styles.css"
-            media="(min-width:768px)"
-        />
+    <link rel="stylesheet" href="/css/utils.css" />
+    <link rel="stylesheet" href="/css/theme.css" />
+
+    <link rel="stylesheet" href="/css/styles.css" />
+
+    <link rel="stylesheet" href="/css/styles-sm.css" media="(min-width:480px)" />
+    <link rel="stylesheet" href="/css/styles-md.css" media="(min-width:768px)" />
+    <link rel="stylesheet" href="/css/styles-lg.css" media="(min-width:1280px)" />
+</head>
                
-    </head>
+    
     <body>
         <header class="ml-yellow-bg padding-16">
             <div class="flex justify-center flex align-center">
                 <img
                     id="logo"
-                    class="w-50 w-33-sm"
+                    class="width-50 width-30-tablet"
                     src="/img/logo-mercado-liebre.svg"
                     alt=""
                 />
-                <div class="padding-8 w-50 w-33-sm">
-                    <div class="flex no-wrap searchbar w-100">
+                <div class="padding-8 width-50 width-30-tablet">
+                    <div class="flex no-wrap searchbar width-100">
                         <input
                             type="text"
-                            class="w-100"
+                            class="width-100"
                             placeholder="Buscar productos, marcas"
                         />
                         <button><i class="fa fa-search"></i></button>
                     </div>
                 </div>
-                <p class="text-center w-100 w-33-sm">
+                <p class="text-center width-100 width-30-tablet">
                     <i class="fas fa-hand-holding-usd"></i> Comprá en cuotas y
                     sin tarjeta de crédito
                 </p>
             </div>
             <nav
                 id="ml-main-nav"
-                class="hide flex show-sm justify-space-between"
+                class="hide flex show-tablet justify-space-between"
             >
                 <ul class="flex">
                     <li class="padding-8">
@@ -75,7 +66,7 @@
                 </ul>
                 <ul class="flex">
                     <li class="padding-8">
-                        <a href="#"
+                        <a href="/register"
                             >Creá tu cuenta <i class="far fa-id-card"></i
                         ></a>
                     </li>
@@ -102,7 +93,7 @@
         />
         <main id="main-content">
             <section>
-                <h2 class="text-title">Basado en tu última visita</h2>
+                <h2 class="title">Basado en tu última visita</h2>
                 <div class="flex">
                     <article class="product">
                         <div class="product-wrapper">
@@ -122,10 +113,10 @@
                                     "
                                 ></i>
                                 <div class="flex">
-                                    <p class="text-price">$6.770</p>
+                                    <p class="price">$6.770</p>
                                     <p
                                         class="
-                                            text-discount
+                                            discount
                                             ml-green-text
                                             flex-grow
                                         "
@@ -133,7 +124,7 @@
                                         40% OFF
                                     </p>
                                 </div>
-                                <p class="text-desc">Cafetera Moulinex</p>
+                                <p class="description">Cafetera Moulinex</p>
                             </div>
                         </div>
                     </article>
@@ -155,10 +146,10 @@
                                     "
                                 ></i>
                                 <div class="flex">
-                                    <p class="text-price">$2.300.000</p>
+                                    <p class="price">$230.000</p>
                                     <p
                                         class="
-                                            text-discount
+                                            discount
                                             ml-green-text
                                             flex-grow
                                         "
@@ -166,7 +157,7 @@
                                         20% OFF
                                     </p>
                                 </div>
-                                <p class="text-desc">MacBook Pro 2019</p>
+                                <p class="description">MacBook Pro 2019</p>
                             </div>
                         </div>
                     </article>
@@ -188,10 +179,10 @@
                                     "
                                 ></i>
                                 <div class="flex">
-                                    <p class="text-price">$6.770</p>
+                                    <p class="price">$6.770</p>
                                     <p
                                         class="
-                                            text-discount
+                                            discount
                                             ml-green-text
                                             flex-grow
                                         "
@@ -199,7 +190,7 @@
                                         40% OFF
                                     </p>
                                 </div>
-                                <p class="text-desc">Cafetera Moulinex</p>
+                                <p class="description">Cafetera Moulinex</p>
                             </div>
                         </div>
                     </article>
@@ -221,10 +212,10 @@
                                     "
                                 ></i>
                                 <div class="flex">
-                                    <p class="text-price">$23.200</p>
+                                    <p class="price">$23.200</p>
                                     <p
                                         class="
-                                            text-discount
+                                            discount
                                             ml-green-text
                                             flex-grow
                                         "
@@ -232,7 +223,7 @@
                                         5% OFF
                                     </p>
                                 </div>
-                                <p class="text-desc">SmartTv Samsung 43"</p>
+                                <p class="description">SmartTv Samsung 43"</p>
                             </div>
                         </div>
                     </article>
@@ -240,16 +231,28 @@
             </section>
         </main>
         <footer>
-            <h2>Pagá con tarjeta o en efectivo</h2>
-            <p>Con Mercado Liebre Cash, tenés cuotas sin interés con tarjeta o efectivo en
+            
+            <div class="footer-icons">
+                <i class="fas fa-credit-card ml-lb-text"></i>
+            </div>
+            <div class= "description text-center">Pagá con tarjeta o en efectivo</div>
+            <p class=text-center>Con Mercado Liebre Cash, tenés cuotas sin interés con tarjeta o efectivo en
                 puntos de pago. ¡Y siempre es seguro!</p>
-            <h2>Envío gratis desde $ 2.500</h2>
-            <p>Solo por estar registrad@ en Mercado Liebre tenés envíos gratis en miles de
+            
+            <div class="footer-icons">
+                <i class="fas fa-gift ml-lb-text"></i>
+            </div>
+                <div class= "description text-center">Envío gratis desde $ 2.500</div>
+            <p class=text-center>Solo por estar registrad@ en Mercado Liebre tenés envíos gratis en miles de
                 productos. Es un beneficio de Mercado Puntos.</p>
-            <h2>Seguridad, de principio a fin</h2>
-            <p>¿No te gusta? ¡Devolvelo! En Mercado Liebre, no hay nada que no puedas hacer,
+            
+            <div class="footer-icons">
+                <i class="fas fa-user-shield ml-lb-text"></i>
+            </div>
+                <div class= "description text-center">Seguridad, de principio a fin</div>
+            <p class=text-center>¿No te gusta? ¡Devolvelo! En Mercado Liebre, no hay nada que no puedas hacer,
                 porque estás siempre protegid@.</p>
-            <h2>Copyright © 1999-2020 MercadoLiebre S.R.L.</h2>
+            <div class= "description text-center">Copyright © 1999-2020 MercadoLiebre S.R.L.</div>
         </footer>
     </body>
 </html>
